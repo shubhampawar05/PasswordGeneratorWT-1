@@ -12,7 +12,7 @@ export default function Home() {
   const refrence = useRef(null)
 
   const copytoclipbord =()=>{
-    refrence.current?.section()
+    // refrence.current?.section()
     window.navigator.clipboard.writeText(password);
     alert('Password copied');
   }
